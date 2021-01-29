@@ -8,7 +8,6 @@ Panels:
         - /Status1
         - /Grid1
         - /LaserScan1
-        - /LaserScan1/Status1
       Splitter Ratio: 0.5
     Tree Height: 549
   - Class: rviz/Selection
@@ -89,7 +88,7 @@ Visualization Manager:
   Global Options:
     Background Color: 48; 48; 48
     Default Light: true
-    Fixed Frame: base_laser
+    Fixed Frame: odom
     Frame Rate: 30
   Name: root
   Tools:
@@ -113,7 +112,7 @@ Visualization Manager:
   Views:
     Current:
       Class: rviz/Orbit
-      Distance: 18.648189544677734
+      Distance: 15.042620658874512
       Enable Stereo Rendering:
         Stereo Eye Separation: 0.05999999865889549
         Stereo Focal Distance: 1
@@ -150,4 +149,4 @@ Window Geometry:
     collapsed: false
   Width: 1200
   X: 191
-  Y: 143
+  Y: 113
